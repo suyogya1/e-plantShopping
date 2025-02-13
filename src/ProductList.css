@@ -107,6 +107,10 @@ body {
     margin-top: 10px;
 }
 
+.product-button.added {
+    background-color: #808080;
+}
+
 .product-button:hover {
     background-color: #c0392b;
 }
@@ -170,8 +174,18 @@ body {
     margin-left: 27px;
     position: absolute;
     font-size: 29px;
-
 }
+
+.cart-count {
+    position: absolute;  /* Or relative, depending on your layout */
+    top: 33px;        /* Adjust as needed */
+    right: 34px;       /* Adjust as needed */
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 20px;
+}
+
 .plantname_heading{
    display: flex;
    align-items: center;
